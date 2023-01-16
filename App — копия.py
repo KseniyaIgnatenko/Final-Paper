@@ -1,8 +1,4 @@
 ﻿from joblib import load
-# Загружаем модели и скейлер.
-model_D = load('model_D.joblib')
-model_W = load('model_W.joblib')
-scaler = load('scaler.joblib')
 
 # Просим пользователя ввести данные
 
